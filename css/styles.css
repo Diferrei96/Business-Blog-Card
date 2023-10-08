@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&family=Poppins&display=swap");
+:root {
+  --light-cyan-blue: #f2f5f9;
+  --dark-blue: #111729;
+  --shadow-cyan-blue: #677489;
+}
+
+/* Body */
+body {
+  background-color: var(--light-cyan-blue);
+}
+
+/* Card */
+.card {
+  width: 418px;
+  position: relative;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 125px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Card Header */
+.card .card-header {
+  position: relative;
+}
+/* Card Image Hero */
+.card .card-header .hero {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+/* Card Image Hero Sup */
+.card .card-header .hero-sup {
+  position: absolute;
+  top: calc(100% - 178px);
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+/* Card Body */
+.card .card-body {
+  margin-top: -22px;
+  padding: 0 30px 24px 32px;
+}
+/* Card Title */
+.card .card-body h2 {
+  font-family: "Poppins";
+  font-size: 24px;
+  letter-spacing: -1.2px;
+  color: var(--dark-blue);
+  padding-right: 50px;
+  margin-bottom: 0;
+}
+/* Card Text */
+.card .card-body p {
+  font-family: "Lato";
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5rem;
+  margin-top: 15px;
+  color: var(--shadow-cyan-blue);
+}
+
+/* Card Footer */
+.card .card-footer {
+  display: flex;
+  align-items: center;
+  padding: 0 30px 15px 30px;
+}
+/* Card Avatar */
+.card .card-footer img {
+  border-radius: 100%;
+  width: 36px;
+  margin-left: 5px;
+}
+/* Card Avatar Text */
+.card .card-footer .text-footer {
+  margin-left: 18px;
+}
+/* Card Avatar Title */
+.card .card-footer .text-footer h4 {
+  font-family: "Lato";
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+/* Card Avatar Subtitle */
+.card .card-footer .text-footer p {
+  font-family: "Lato";
+  font-weight: bold;
+  font-size: 12px;
+  color: var(--shadow-cyan-blue);
+  margin-top: 0;
+}
